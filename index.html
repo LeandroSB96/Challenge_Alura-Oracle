@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Chagelle 1 - Encriptador de texto</title>
+</head>
+<body>
+    
+<div class="container">
+  <div class="logo">
+    <img class="logo-img" src="Logo.png" alt="Logo de alura">
+     <h1 class="titulo">Encriptador de mensaje</h1>
+  </div>
+  <div class="left">
+    <input class="text-input" id="inputTexto" type="text" name="input-texto" id="inputtexto" placeholder="Ingrese el texto aqui">
+  </div>
+  <div class="rigth">
+    <img src="Muñeco.png" alt="Muñeco de pagina" id="img-1">
+     <h1 id="texto">Ningún mensaje fue encontrado</h1>
+     <textarea name="" id="texto-2" cols="30" rows="10">Ingrese el texto que quieras encriptar o desencriptar.</textarea>
+     <button type="button" id="copiar" onclick="copia()" style="display: inherit;">¡Copiar!</button>
+  </div>
+   <div class="left-button">
+     <p>Solo minúsculas y sin acentos</p>
+     <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+     <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+   </div>
+</div>
+
+<div class="pie-pagina">
+ <footer>
+    Página creada por Leandro Saint Bonnet para Alura.
+ </footer>
+</div>
+
+</body>
+</html>
